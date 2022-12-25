@@ -10,8 +10,10 @@
 In this challenge there are 3 given files: c_value, n_value and e_value.
 The value of n_value is very big which lag out my VM machine couple times and the other two file are pretty small.
 
-Up on analyzing the files I noticed that the given n value is it greater than the value of m^e. Therefore, we can take a cube root of c and get the original message.
+Up on analyzing and researching the files I noticed that the given n value is it greater than the value of m^e. Therefore, we can take a cube root of c and get the original message.
 
+
+###Below is the code I used to solve this challenge
 
 ```
 #!/usr/bin/python3
